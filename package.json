@@ -11,7 +11,10 @@
     "start": "node index.js",
     "server": "nodemon index.js",
     "client": "npm run start --prefix client",
-    "dev": "concurrently \"npm run server\" \"npm run client\""
+    "dev": "concurrently \"npm run server\" \"npm run client\"" 
+  },
+  "scriptComments": {
+    "npm run dev": "Runs the dev script to start both React and NodeJS servers"
   },
   "author": "",
   "license": "ISC",
